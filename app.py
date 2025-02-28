@@ -18,7 +18,7 @@ def get_response(input):
     try:
         llm = GoogleGenerativeAI(
             api_key=GEMINI_API_KEY,  # Ensure the api_key is passed correctly
-            model="gemini-pro"
+            model="gemini-2.0-flash"
         )
         response = llm.invoke(input)
         return response
