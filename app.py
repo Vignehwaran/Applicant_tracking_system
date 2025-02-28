@@ -7,7 +7,7 @@ import warnings
 warnings.filterwarnings("ignore")
 
 load_dotenv()
-GEMINI_API_KEY=st.sidebar.text_input(label="Enter your Gemini-pro API key",type="password")
+GEMINI_API_KEY="AIzaSyDP4-kI5V1QLGkoZhXnWzJOw_z-k5cf8zY" 
 # Ensure necessary environment variables are loaded
 # api_key = os.getenv(GEMINI_API_KEY)
 
